@@ -5,7 +5,14 @@
 
 .hidden {
   visibility: hidden;
+  display: none;
 }
+
+.no-style-link {
+  color: inherit;     /* Inherit color from the parent element */
+  text-decoration: none; /* Remove underline */
+}
+
 
 a {
   text-decoration: none;
@@ -39,6 +46,7 @@ a {
   padding-left: 0;
   padding-right: 0;
   position: relative;
+  display: none;
 }
 
 .w-embed-youtubevideo:empty {
@@ -157,6 +165,20 @@ a {
   line-height: 60px;
   display: flex;
   position: static;
+}
+
+.projectDescription {
+  box-sizing: border-box;
+  color: #ede6de;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: auto;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+  position: static;
+  display: none;
 }
 
 .button-primary {
@@ -632,10 +654,19 @@ a {
   position: relative;
 }
 
-.title1 {
+.headingNormal {
+  color: #ede6de;
+  font-family: Raleway, sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.heading2ndTitles {
   color: #ede6de;
   font-family: Raleway, sans-serif;
   font-weight: 400;
+  display: none;
 }
 
 .projects {
@@ -761,10 +792,12 @@ a {
   line-height: 100px;
 }
 
-.heading-15 {
+.headingAccent {
   color: #791313;
   font-family: Raleway, sans-serif;
-  font-weight: 400;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
 }
 
 .startsection {
